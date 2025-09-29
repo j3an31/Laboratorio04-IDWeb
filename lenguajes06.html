@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lenguajes.com</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de preferencias</h1>
+        <hr>
+        <nav>
+            <a href="indexLab06.html">Ir a la página principal</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section id="formulario">
+            <form action="#" method="post">
+                <label for="foto">1. Foto de perfil:</label><br>
+                <input type="file" id="foto" name="foto" accept="image/*">
+                <br><br>
+            
+                <label for="lenguajes">2. ¿Qué lenguajes conoces?</label><br>
+                <select id="lenguajes" name="lenguajes" multiple>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                </select>
+                <br><br>
+
+                <label for="horas">3. ¿Cuántas horas de programación estudias al día?</label><br>
+                <input type="number" id="horas" name="horas" min="0" max="24">
+                <br><br>
+
+                <button type="submit">Guardar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
